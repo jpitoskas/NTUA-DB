@@ -1,0 +1,198 @@
+h1 {
+	text-align:center;
+	color:#f9f9f9;
+	font-family: 'Trebuchet MS', Verdana, sans-serif;
+	font-size: 6em;
+}
+
+body{
+	background-image:url("hotels.jpg");
+	background-repeat : no-repeat;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+#choices {
+			background: rgba(0, 0, 0, 0.7);
+			color: #ffa;
+			top: 45%;
+			left: 50%;
+			position: absolute;
+			transform: translate(-50%,-50%);
+			box-sizing: border-box;
+			padding: 70px 20px;
+			font-size : 20px;
+			box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#choices input[type="date"],
+#choices input[type="date"],
+#choices input[type="text"],
+#choices input[type="text"],
+#choices input[type="number"],
+#choices input[type="number"],
+#choices button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#choices input[type="date"],
+#choices input[type="date"],
+#choices input[type="text"],
+#choices input[type="text"],
+#choices input[type="number"],
+#choices input[type="number"]{
+	border: none;
+	border-bottom: 1px solid #ccc;
+	background: rgba(255, 255, 255, 0.25);
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+  margin: 0 0 5px;
+  padding: 2px 3px;
+}
+
+#choices button[type="submit"] {
+	border: none;
+	border-bottom: 1px solid #ccc;
+	background: rgba(255, 255, 255, 0.25);
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+  margin: 0 0 5px;
+  padding: 2px 3px;
+	width: 50px;
+}
+
+#choices input[type="date"]:hover,
+#choices input[type="date"]:hover,
+#choices input[type="text"]:hover,
+#choices input[type="text"]:hover,
+#choices input[type="number"]:hover,
+#choices input[type="number"]:hover,
+#choices button[type="submit"]:hover{
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.select1 {
+	padding: 2px 3px;
+	text-align: center;
+	border: none;
+ 	border-bottom: 1px solid #fff;
+ 	background: rgba(255, 255, 255, 0.2);
+ 	outline: none;
+  height: 40px;
+	font-size: 16px;
+	margin: 0 0 5px;
+}
+
+.select1 select {
+	/* padding: 8px; */
+	padding: 2px 3px;
+ 	height: 40px;
+ 	width: 100%;
+ 	border: none;
+ 	background: rgba(255, 255, 255, 0.2);
+	color: #fff;
+	margin: 0 0 5px;
+	text-align: center;
+}
+
+.select2 {
+	padding: 2px 3px;
+	border: none;
+ 	border-bottom: 1px solid #fff;
+ 	background: rgba(255, 255, 255, 0.2);
+ 	outline: none;
+  height: 40px;
+	font-size: 16px;
+	margin: 0 0 5px;
+	text-align: center;
+}
+
+.select2 select {
+	/* padding: 8px; */
+	padding: 2px 3px;
+	height: 40px;
+	width: 100%;
+	border: none;
+	background: rgba(255, 255, 255, 0.2);
+	color: #fff;
+	margin: 0 0 5px;
+	text-align: center;
+}
+
+option:not(:checked) {
+  color: #000;
+}
+
+nav
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 70px;
+	background: rgba(0,0,0,0.6);
+	padding: 0 100px;
+	box-sizing: border-box;
+}
+
+nav .brand
+{
+	float: left;
+	height: 100%;
+    line-height: 70px;
+}
+
+nav .brand h2
+{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+nav ul
+{
+	float: right;
+	display: flex;
+	margin: 0;
+	padding: 0;
+
+}
+
+nav ul li
+{
+	list-style: none;
+}
+
+nav ul li a
+{
+	position: relative;
+	display: block;
+	height: 70px;
+	line-height: 70px;
+	padding: 0 20px;
+	box-sizing: border-box;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .5s;
+}
+
+nav ul li a
+{
+	display: block;
+}
+
+
+nav ul li a:hover
+{
+	color: black;
+	background-color: #fff;
+}
